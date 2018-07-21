@@ -30,13 +30,13 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0
+      value: 1
     - useVariable: 1
       name: BPM total
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 2
+      value: 1
     - useVariable: 1
       name: BPMTap01
       tooltip: 
@@ -62,6 +62,12 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: Skyscraper Speed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: SphereSpeed
       tooltip: 
       showInInspector: 0
@@ -72,7 +78,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: -2
+      value: 2
     intVariables: []
     boolVariables: []
     stringVariables: []
@@ -95,5 +101,5 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events: []
