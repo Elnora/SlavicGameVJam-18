@@ -9,46 +9,45 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1880403101734908}
+  m_RootGameObject: {fileID: 1771396926693692}
   m_IsPrefabParent: 1
---- !u!1 &1880403101734908
+--- !u!1 &1771396926693692
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4984214750842774}
-  - component: {fileID: 33462168611501348}
-  - component: {fileID: 23360741625081126}
-  - component: {fileID: 65355026528941434}
-  - component: {fileID: 114036467115243390}
+  - component: {fileID: 4586205277811676}
+  - component: {fileID: 33921738017463034}
+  - component: {fileID: 23985177538783478}
+  - component: {fileID: 114605136055984000}
   m_Layer: 0
-  m_Name: Skyscraper
-  m_TagString: destroyer
+  m_Name: FadedTunnel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4984214750842774
+--- !u!4 &4586205277811676
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1880403101734908}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 346, y: -127.65, z: 418}
-  m_LocalScale: {x: 49.66557, y: 674.4864, z: 34.409386}
+  m_GameObject: {fileID: 1771396926693692}
+  m_LocalRotation: {x: 0.5000001, y: -0.4999999, z: 0.4999999, w: 0.5000001}
+  m_LocalPosition: {x: 0.000011444092, y: -8.750032, z: 44}
+  m_LocalScale: {x: 131.45274, y: 454.0042, z: 262.00385}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23360741625081126
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 89.99999}
+--- !u!23 &23985177538783478
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1880403101734908}
+  m_GameObject: {fileID: 1771396926693692}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +57,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c5f04d103f4f279428be139e8f170472, type: 2}
+  - {fileID: 2100000, guid: 4cd03a42faaa5f3498f088fe37436278, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,31 +77,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33462168611501348
+--- !u!33 &33921738017463034
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1880403101734908}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65355026528941434
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1880403101734908}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114036467115243390
+  m_GameObject: {fileID: 1771396926693692}
+  m_Mesh: {fileID: 4300002, guid: 94b52d93f558c2043bedc31f51af7c0f, type: 3}
+--- !u!114 &114605136055984000
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1880403101734908}
+  m_GameObject: {fileID: 1771396926693692}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
@@ -119,7 +106,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
+        x: 52
         y: 100
         width: 100
         height: 16
@@ -159,12 +146,12 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: tunnelSpeed
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -12
+          value: 2
         - useVariable: 1
           name: 
           tooltip: 
@@ -213,7 +200,25 @@ MonoBehaviour:
     events: []
     globalTransitions: []
     variables:
-      floatVariables: []
+      floatVariables:
+      - useVariable: 1
+        name: blue
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: green
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: red
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       intVariables: []
       boolVariables: []
       stringVariables: []
@@ -230,7 +235,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 
+      variableCategoryIDs: 000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
