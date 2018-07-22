@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114949255101727842}
   - component: {fileID: 114547247730481086}
   m_Layer: 0
-  m_Name: Spheres
+  m_Name: Spheressmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ Transform:
   m_GameObject: {fileID: 1723062804925078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4263728, y: 1.4263729, z: 1.4263729}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4594048867850768}
   m_RootOrder: 0
@@ -349,7 +349,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!114 &114547247730481086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -637,7 +637,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -671,7 +671,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!114 &114835591820725748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -863,7 +863,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!114 &114949255101727842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1047,7 +1047,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -1081,7 +1081,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!135 &135003126773262314
 SphereCollider:
   m_ObjectHideFlags: 1
