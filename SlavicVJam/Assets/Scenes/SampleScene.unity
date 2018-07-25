@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -467,10 +467,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Max Distance
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: -32
         - useVariable: 0
@@ -586,10 +586,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: NewSpawnPos
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 118
         - useVariable: 0
@@ -644,6 +644,18 @@ MonoBehaviour:
     variables:
       floatVariables:
       - useVariable: 1
+        name: Max Distance
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: -32
+      - useVariable: 1
+        name: NewSpawnPos
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 118
+      - useVariable: 1
         name: zpos
         tooltip: 
         showInInspector: 0
@@ -665,7 +677,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -680,7 +692,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 7
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -902,7 +914,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 7
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -7368,7 +7380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1307245105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7474,8 +7486,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 246
-        y: 113
+        x: 244
+        y: 110
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7806,13 +7818,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.413
+          value: 0.41379312
         - useVariable: 1
           name: BPM total
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.413
+          value: 0.41379312
         - useVariable: 0
           name: 
           tooltip: 
@@ -7824,13 +7836,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.413
+          value: 0.336
         - useVariable: 1
           name: BPM total
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.413
+          value: 0.41379312
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
