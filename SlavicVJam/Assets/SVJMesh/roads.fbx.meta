@@ -1,24 +1,38 @@
 fileFormatVersion: 2
-guid: 39202b6579700cc43b405a2592ac65e5
+guid: 4a3030e77c5caa74e9b2953ec232c7a9
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Camera
-    100002: //RootNode
-    100004: Cube
-    100006: Lamp
-    400000: Camera
-    400002: //RootNode
-    400004: Cube
-    400006: Lamp
-    2000000: Camera
-    2100000: Material
-    2300000: Cube
-    2300002: //RootNode
-    3300000: Cube
-    3300002: //RootNode
-    4300000: Cube
-    10800000: Lamp
+    100000: Road_45
+    100002: Road_90
+    100004: Road_minus2
+    100006: Road_plus2
+    100008: Road_straight
+    100010: //RootNode
+    400000: Road_45
+    400002: Road_90
+    400004: Road_minus2
+    400006: Road_plus2
+    400008: Road_straight
+    400010: //RootNode
+    2100000: No Name
+    2100002: roadEdges
+    2100004: road
+    2300000: Road_45
+    2300002: Road_90
+    2300004: Road_minus2
+    2300006: Road_plus2
+    2300008: Road_straight
+    3300000: Road_45
+    3300002: Road_90
+    3300004: Road_minus2
+    3300006: Road_plus2
+    3300008: Road_straight
+    4300000: Road_plus2
+    4300002: Road_minus2
+    4300004: Road_45
+    4300006: Road_90
+    4300008: Road_straight
   externalObjects: {}
   materials:
     importMaterials: 1

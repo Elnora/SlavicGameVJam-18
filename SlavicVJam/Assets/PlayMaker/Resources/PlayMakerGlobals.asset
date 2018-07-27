@@ -68,6 +68,12 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: RoadMoveSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: -10
+    - useVariable: 1
       name: Skyscraper Speed
       tooltip: 
       showInInspector: 0
@@ -147,7 +153,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - keys
   - test
@@ -157,3 +163,4 @@ MonoBehaviour:
   - startPulse
   - space
   - BPMChanged
+  - relocate
