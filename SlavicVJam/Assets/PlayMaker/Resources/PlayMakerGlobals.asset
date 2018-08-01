@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -74,6 +74,30 @@ MonoBehaviour:
       networkSync: 0
       value: -10
     - useVariable: 1
+      name: SkyRed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: SkyTintBlue
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: SkyTintGreen
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: SkyTintRed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: Skyscraper Speed
       tooltip: 
       showInInspector: 0
@@ -119,7 +143,13 @@ MonoBehaviour:
     boolVariables: []
     stringVariables: []
     vector2Variables: []
-    vector3Variables: []
+    vector3Variables:
+    - useVariable: 1
+      name: ColorToSetWithSliders
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
     colorVariables:
     - useVariable: 1
       name: Colors
@@ -127,6 +157,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {r: 0.89411765, g: 0.21568628, b: 0.23137255, a: 1}
+    - useVariable: 1
+      name: SetColorSliders
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables: []
@@ -153,7 +189,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - keys
   - test
