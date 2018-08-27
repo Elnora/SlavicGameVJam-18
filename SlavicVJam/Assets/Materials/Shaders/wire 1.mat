@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: wire 1
   m_Shader: {fileID: 4800000, guid: 08d762d9cfed09a4d8b609ac117ad191, type: 3}
@@ -18,6 +18,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_562E3DBD:
+        m_Texture: {fileID: 2800000, guid: 68132ba422973a14f9f135b9d411807e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture_1F8C60:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
