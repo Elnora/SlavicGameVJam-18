@@ -30,13 +30,13 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0.336
+      value: 0.5
     - useVariable: 1
       name: BPM total
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0.41379312
+      value: 0.5
     - useVariable: 1
       name: BPMScaled
       tooltip: 
