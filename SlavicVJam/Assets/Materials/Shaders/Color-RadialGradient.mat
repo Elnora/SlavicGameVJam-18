@@ -84,7 +84,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_15341B4B: {r: 0.13756618, g: 0.5, b: 0, a: 0}
+    - Color_15341B4B: {r: 0, g: 0.13981839, b: 0.5019608, a: 0}
     - Color_5FEADAED: {r: 0.014359471, g: 0, b: 1, a: 0}
     - Color_6165C4B9: {r: 1, g: 1, b: 1, a: 0}
     - Color_A0800E40: {r: 0.46162653, g: 1, b: 0.25943395, a: 0}
